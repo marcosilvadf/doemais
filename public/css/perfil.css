@@ -1,0 +1,72 @@
+.perfil
+{
+    align-items: center;
+    background-color: #2193b0;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.377);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.objs
+{
+    align-items: center;
+    background-color: #2193b0;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.377);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.perfil > img
+{
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.edit
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+}
+
+.delete
+{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20px;
+}
+
+div.obj
+{
+    padding: 2px;
+    align-items: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+img.obj
+{
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 60px;
+    object-fit: cover;
+    width: 60px;
+}
