@@ -21,7 +21,7 @@
             <h3 id="nameImage">Selecione uma imagem</h3>
         </label>
         <input type="file" name="banner" id="banner" accept=".jpg, .png, .jpeg">
-        <input type="text" name="nome" id="" placeholder="Nome:" required value="{{$usuario->nome ?? ''}}">
+        <input type="text" name="nome" id="" placeholder="Nome:" required value="{{$usuario->nome ?? ''}}" minlength="4" maxlength="40">
         <input type="email" name="email" id="" placeholder="E-mail:" required value="{{$usuario->email ?? ''}}">
         
         @if ($ong)
@@ -54,7 +54,7 @@
             </div>
         @endif
         
-        <input type="text" name="telefone" id="" placeholder="Telefone:" required value="{{$usuario->telefone->numero ?? ''}}">
+        <input type="text" name="telefone" id="" placeholder="Telefone:" required value="{{$usuario->telefone->numero ?? ''}}" minlength="10" maxlength="15">
         @if (!(isset($usuario->nome)))
             <div class="irow">
                 <div class="password irow">

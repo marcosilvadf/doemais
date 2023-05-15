@@ -14,12 +14,10 @@
     <header>
         <menu>
             <span>
-                Doe Mais
+                Doe Esperança
             </span>
             <ul>
                 <li><a href="{{route('inicio')}}">Início</a></li>
-                <li><a href="">Início</a></li>
-                <li><a href="">Início</a></li>
             </ul>
 
             <?php
